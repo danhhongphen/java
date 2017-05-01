@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="LopHoc" table="lophoc">
+      <meta attribute="class-description">
+   	  </meta>
+      <id name="maLopHoc" type="string">
+      <column length="50" name="MaLopHoc"/>
+         <generator class="assigned"/>
+      </id>
+      <property name="tenLopHoc" type="string"> 
+      	<column length="50" name="TenLopHoc" not-null="true"/>
+      </property>
+      <property name="phongHoc" type="string"> 
+      	<column length="50" name="PhongHoc" not-null="true"/>
+      </property>
+      <property name="ngayBatDau" type="date"> 
+      	<column length="50" name="NgayBatDau" not-null="true"/>
+      </property>
+      <property name="ngayKetThuc" type="date"> 
+      	<column length="50" name="NgayKetThuc" not-null="true"/>
+      </property>
+      <property name="gioBatDau" type="time"> 
+      	<column length="50" name="GioBatDau" not-null="true"/>
+      </property>
+      <property name="gioKetThuc" type="time"> 
+      	<column length="50" name="GioKetThuc" not-null="true"/>
+      </property>
+      <property name="thu" type="string"> 
+      	<column length="50" name="Thu" not-null="true"/>
+      </property>
+      
+      <set name="sinhViens" table="sinhvien_lophoc"
+        	inverse="false" lazy="false" fetch="select" cascade="save-update" >
+            <key>
+                <column name="MaLopHoc" not-null="true" />
+            </key>
+            <many-to-many entity-name="SinhVien">
+                <column name="MaSinhVien" not-null="true" />
+            </many-to-many>
+        </set>
+   </class>
+</hibernate-mapping>

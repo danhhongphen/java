@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="giaovien_lophoc" table="giaovien_lophoc">
+      <meta attribute="class-description">
+   	  </meta>
+      <composite-id name="pk" class="giaovien_lophocID">
+      	<key-property name="maGiaoVien" column="MaGiaoVien" type="int" />
+      	<key-property name="maLopHoc" column="MaLopHoc" length= "50" type="string" />
+     </composite-id>
+   </class>
+</hibernate-mapping>

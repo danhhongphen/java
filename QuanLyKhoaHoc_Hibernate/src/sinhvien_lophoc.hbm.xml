@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="sinhvien_lophoc" table="sinhvien_lophoc">
+      <meta attribute="class-description">
+   	  </meta>
+      <composite-id name="pk" class="sinhvien_lophocID">
+      	<key-property name="maSinhVien" column="MaSinhVien" type="integer" />
+      	<key-property name="maLopHoc" column="MaLopHoc" length="50" type="string" />
+     </composite-id>
+     <property name="Tuan1" type="integer" column="Tuan1" not-null="true" />
+     <property name="Tuan2" type="integer" column="Tuan2" not-null="true" />
+     <property name="Tuan3" type="integer" column="Tuan3" not-null="true" />
+     <property name="Tuan4" type="integer" column="Tuan4" not-null="true" />
+     <property name="Tuan5" type="integer" column="Tuan5" not-null="true" />
+     <property name="Tuan6" type="integer" column="Tuan6" not-null="true" />
+     <property name="Tuan7" type="integer" column="Tuan7" not-null="true" />
+     <property name="Tuan8" type="integer" column="Tuan8" not-null="true" />
+     <property name="Tuan9" type="integer" column="Tuan9" not-null="true" />
+     <property name="Tuan10" type="integer" column="Tuan10" not-null="true" />
+     <property name="Tuan11" type="integer" column="Tuan11" not-null="true" />
+     <property name="Tuan12" type="integer" column="Tuan12" not-null="true" />
+     <property name="Tuan13" type="integer" column="Tuan13" not-null="true" />
+     <property name="Tuan14" type="integer" column="Tuan14" not-null="true" />
+     <property name="Tuan15" type="integer" column="Tuan15" not-null="true" />
+   </class>
+</hibernate-mapping>
