@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [30/May/2017:23:50:05 +0700] "GET /MVCProductManagement/ HTTP/1.1" 200 57 http-bio-8080-exec-1 1173
+0:0:0:0:0:0:0:1 - - [30/May/2017:23:50:20 +0700] "GET /MVCProductManagement/managerList HTTP/1.1" 500 12226 http-bio-8080-exec-5 688
+0:0:0:0:0:0:0:1 - - [30/May/2017:23:55:40 +0700] "GET /MVCProductManagement/managerList HTTP/1.1" 500 12226 http-bio-8080-exec-1 540
+0:0:0:0:0:0:0:1 - - [30/May/2017:23:57:56 +0700] "GET /MVCProductManagement/managerList HTTP/1.1" 500 12226 http-bio-8080-exec-1 583

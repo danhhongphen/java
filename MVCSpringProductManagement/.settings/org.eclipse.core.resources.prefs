@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/main/java/SpringMVCProductManagement/config/ApplicationContextConfig.java=UTF-8
+encoding//src/main/java/SpringMVCProductManagement/config/WebMvcConfig.java=UTF-8
+encoding//src/main/java/SpringMVCProductManagement/controller/MyController.java=UTF-8
+encoding//src/main/java/SpringMVCProductManagement/model/ManagerInfo.java=UTF-8
+encoding//src/main/java/SpringMVCProductManagement/model/StaffInfo.java=UTF-8
+encoding//src/main/java/SpringMVCProductManagement/validator/ProductsValidator.java=UTF-8
