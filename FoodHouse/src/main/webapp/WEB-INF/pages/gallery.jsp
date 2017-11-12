@@ -103,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							 <ul class="nav navbar-nav link-effect-4">
 							<li><a href="home" data-hover="Home">Home</a> </li>
 								<li><a href="about" data-hover="About">About </a> </li>
-								<li class="active"><a href="gallery.html"  data-hover="Gallery">Gallery</a></li>
+								<li class="active"><a href="gallery"  data-hover="Gallery">Gallery</a></li>
 							  	<li><a href="our_branches" data-hover="OurBranches">Our Branches</a></li>
 								<li><a href="contact" data-hover="Contact">Contact</a></li>
 							  </ul>
